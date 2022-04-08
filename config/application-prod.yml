@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: demo
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - '*'
+demo:
+  greeting: "Hola"
+  default-value: "Mundo"
+
